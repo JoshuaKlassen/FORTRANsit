@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8361E9D61DF3224100DB19BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361E9D51DF3224100DB19BB /* AppDelegate.swift */; };
+		8361E9D81DF3224100DB19BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361E9D71DF3224100DB19BB /* ViewController.swift */; };
+		8361E9DB1DF3224100DB19BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8361E9D91DF3224100DB19BB /* Main.storyboard */; };
+		8361E9DD1DF3224100DB19BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8361E9DC1DF3224100DB19BB /* Assets.xcassets */; };
+		8361E9E01DF3224100DB19BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8361E9DE1DF3224100DB19BB /* LaunchScreen.storyboard */; };
+		8361E9EB1DF3224100DB19BB /* FORTRANsitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361E9EA1DF3224100DB19BB /* FORTRANsitTests.swift */; };
+		8361E9F61DF3224100DB19BB /* FORTRANsitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361E9F51DF3224100DB19BB /* FORTRANsitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8361E9E71DF3224100DB19BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8361E9CA1DF3224100DB19BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8361E9D11DF3224100DB19BB;
+			remoteInfo = FORTRANsit;
+		};
+		8361E9F21DF3224100DB19BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8361E9CA1DF3224100DB19BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8361E9D11DF3224100DB19BB;
+			remoteInfo = FORTRANsit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8361E9D21DF3224100DB19BB /* FORTRANsit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FORTRANsit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8361E9D51DF3224100DB19BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8361E9D71DF3224100DB19BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8361E9DA1DF3224100DB19BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8361E9DC1DF3224100DB19BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8361E9DF1DF3224100DB19BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8361E9E11DF3224100DB19BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8361E9E61DF3224100DB19BB /* FORTRANsitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FORTRANsitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8361E9EA1DF3224100DB19BB /* FORTRANsitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FORTRANsitTests.swift; sourceTree = "<group>"; };
+		8361E9EC1DF3224100DB19BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8361E9F11DF3224100DB19BB /* FORTRANsitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FORTRANsitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8361E9F51DF3224100DB19BB /* FORTRANsitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FORTRANsitUITests.swift; sourceTree = "<group>"; };
+		8361E9F71DF3224100DB19BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8361E9CF1DF3224100DB19BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9E31DF3224100DB19BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9EE1DF3224100DB19BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8361E9C91DF3224100DB19BB = {
+			isa = PBXGroup;
+			children = (
+				8361E9D41DF3224100DB19BB /* FORTRANsit */,
+				8361E9E91DF3224100DB19BB /* FORTRANsitTests */,
+				8361E9F41DF3224100DB19BB /* FORTRANsitUITests */,
+				8361E9D31DF3224100DB19BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8361E9D31DF3224100DB19BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8361E9D21DF3224100DB19BB /* FORTRANsit.app */,
+				8361E9E61DF3224100DB19BB /* FORTRANsitTests.xctest */,
+				8361E9F11DF3224100DB19BB /* FORTRANsitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8361E9D41DF3224100DB19BB /* FORTRANsit */ = {
+			isa = PBXGroup;
+			children = (
+				8361E9D51DF3224100DB19BB /* AppDelegate.swift */,
+				8361E9D71DF3224100DB19BB /* ViewController.swift */,
+				8361E9D91DF3224100DB19BB /* Main.storyboard */,
+				8361E9DC1DF3224100DB19BB /* Assets.xcassets */,
+				8361E9DE1DF3224100DB19BB /* LaunchScreen.storyboard */,
+				8361E9E11DF3224100DB19BB /* Info.plist */,
+			);
+			path = FORTRANsit;
+			sourceTree = "<group>";
+		};
+		8361E9E91DF3224100DB19BB /* FORTRANsitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8361E9EA1DF3224100DB19BB /* FORTRANsitTests.swift */,
+				8361E9EC1DF3224100DB19BB /* Info.plist */,
+			);
+			path = FORTRANsitTests;
+			sourceTree = "<group>";
+		};
+		8361E9F41DF3224100DB19BB /* FORTRANsitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8361E9F51DF3224100DB19BB /* FORTRANsitUITests.swift */,
+				8361E9F71DF3224100DB19BB /* Info.plist */,
+			);
+			path = FORTRANsitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8361E9D11DF3224100DB19BB /* FORTRANsit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8361E9FA1DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsit" */;
+			buildPhases = (
+				8361E9CE1DF3224100DB19BB /* Sources */,
+				8361E9CF1DF3224100DB19BB /* Frameworks */,
+				8361E9D01DF3224100DB19BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FORTRANsit;
+			productName = FORTRANsit;
+			productReference = 8361E9D21DF3224100DB19BB /* FORTRANsit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8361E9E51DF3224100DB19BB /* FORTRANsitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8361E9FD1DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsitTests" */;
+			buildPhases = (
+				8361E9E21DF3224100DB19BB /* Sources */,
+				8361E9E31DF3224100DB19BB /* Frameworks */,
+				8361E9E41DF3224100DB19BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8361E9E81DF3224100DB19BB /* PBXTargetDependency */,
+			);
+			name = FORTRANsitTests;
+			productName = FORTRANsitTests;
+			productReference = 8361E9E61DF3224100DB19BB /* FORTRANsitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8361E9F01DF3224100DB19BB /* FORTRANsitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8361EA001DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsitUITests" */;
+			buildPhases = (
+				8361E9ED1DF3224100DB19BB /* Sources */,
+				8361E9EE1DF3224100DB19BB /* Frameworks */,
+				8361E9EF1DF3224100DB19BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8361E9F31DF3224100DB19BB /* PBXTargetDependency */,
+			);
+			name = FORTRANsitUITests;
+			productName = FORTRANsitUITests;
+			productReference = 8361E9F11DF3224100DB19BB /* FORTRANsitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8361E9CA1DF3224100DB19BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Josh Klassen";
+				TargetAttributes = {
+					8361E9D11DF3224100DB19BB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LNMB6YK7H9;
+						ProvisioningStyle = Automatic;
+					};
+					8361E9E51DF3224100DB19BB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LNMB6YK7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8361E9D11DF3224100DB19BB;
+					};
+					8361E9F01DF3224100DB19BB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LNMB6YK7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8361E9D11DF3224100DB19BB;
+					};
+				};
+			};
+			buildConfigurationList = 8361E9CD1DF3224100DB19BB /* Build configuration list for PBXProject "FORTRANsit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8361E9C91DF3224100DB19BB;
+			productRefGroup = 8361E9D31DF3224100DB19BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8361E9D11DF3224100DB19BB /* FORTRANsit */,
+				8361E9E51DF3224100DB19BB /* FORTRANsitTests */,
+				8361E9F01DF3224100DB19BB /* FORTRANsitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8361E9D01DF3224100DB19BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8361E9E01DF3224100DB19BB /* LaunchScreen.storyboard in Resources */,
+				8361E9DD1DF3224100DB19BB /* Assets.xcassets in Resources */,
+				8361E9DB1DF3224100DB19BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9E41DF3224100DB19BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9EF1DF3224100DB19BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8361E9CE1DF3224100DB19BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8361E9D81DF3224100DB19BB /* ViewController.swift in Sources */,
+				8361E9D61DF3224100DB19BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9E21DF3224100DB19BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8361E9EB1DF3224100DB19BB /* FORTRANsitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361E9ED1DF3224100DB19BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8361E9F61DF3224100DB19BB /* FORTRANsitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8361E9E81DF3224100DB19BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8361E9D11DF3224100DB19BB /* FORTRANsit */;
+			targetProxy = 8361E9E71DF3224100DB19BB /* PBXContainerItemProxy */;
+		};
+		8361E9F31DF3224100DB19BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8361E9D11DF3224100DB19BB /* FORTRANsit */;
+			targetProxy = 8361E9F21DF3224100DB19BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8361E9D91DF3224100DB19BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8361E9DA1DF3224100DB19BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8361E9DE1DF3224100DB19BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8361E9DF1DF3224100DB19BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8361E9F81DF3224100DB19BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8361E9F91DF3224100DB19BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8361E9FB1DF3224100DB19BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8361E9FC1DF3224100DB19BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8361E9FE1DF3224100DB19BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FORTRANsit.app/FORTRANsit";
+			};
+			name = Debug;
+		};
+		8361E9FF1DF3224100DB19BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FORTRANsit.app/FORTRANsit";
+			};
+			name = Release;
+		};
+		8361EA011DF3224100DB19BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FORTRANsit;
+			};
+			name = Debug;
+		};
+		8361EA021DF3224100DB19BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LNMB6YK7H9;
+				INFOPLIST_FILE = FORTRANsitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KOG.FORTRANsitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FORTRANsit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8361E9CD1DF3224100DB19BB /* Build configuration list for PBXProject "FORTRANsit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8361E9F81DF3224100DB19BB /* Debug */,
+				8361E9F91DF3224100DB19BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8361E9FA1DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8361E9FB1DF3224100DB19BB /* Debug */,
+				8361E9FC1DF3224100DB19BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8361E9FD1DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8361E9FE1DF3224100DB19BB /* Debug */,
+				8361E9FF1DF3224100DB19BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8361EA001DF3224100DB19BB /* Build configuration list for PBXNativeTarget "FORTRANsitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8361EA011DF3224100DB19BB /* Debug */,
+				8361EA021DF3224100DB19BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8361E9CA1DF3224100DB19BB /* Project object */;
+}
