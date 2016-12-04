@@ -48,6 +48,16 @@
                ReferencedContainer = "container:FORTRANsit.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8361EA251DF34C2000DB19BB"
+               BuildableName = "FORTRANsitFrameworkTests.xctest"
+               BlueprintName = "FORTRANsitFrameworkTests"
+               ReferencedContainer = "container:FORTRANsit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

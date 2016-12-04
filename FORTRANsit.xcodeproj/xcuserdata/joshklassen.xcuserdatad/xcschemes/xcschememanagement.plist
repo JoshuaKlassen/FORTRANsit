@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FORTRANsitFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>FORTRANsitWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,21 @@
 			<true/>
 		</dict>
 		<key>8361E9F01DF3224100DB19BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8361EA061DF34A9C00DB19BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8361EA1D1DF34C2000DB19BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8361EA251DF34C2000DB19BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
